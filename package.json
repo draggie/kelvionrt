@@ -8,7 +8,9 @@
     "test": "ng test",
     "lint": "ng lint",
     "lint:fix": "ng lint rt-select --fix",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "prebuild": "npm install -q && npm run lint",
+    "prepush": "npm run lint"
   },
   "private": true,
   "dependencies": {
