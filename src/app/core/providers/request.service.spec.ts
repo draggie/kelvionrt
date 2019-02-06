@@ -7,6 +7,7 @@ describe('RequestService', () => {
 
   it('should be created', () => {
     const service: RequestService = TestBed.get(RequestService);
+
     expect(service).toBeTruthy();
   });
 });

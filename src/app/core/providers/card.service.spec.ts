@@ -7,6 +7,7 @@ describe('CardService', () => {
 
   it('should be created', () => {
     const service: CardService = TestBed.get(CardService);
+
     expect(service).toBeTruthy();
   });
 });
